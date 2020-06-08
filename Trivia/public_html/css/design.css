@@ -3,6 +3,7 @@
     border: 3px solid black;
     text-align: center;
     width: 200px;
+    display: none;
 }
 
 #ans{
@@ -11,8 +12,15 @@
     text-align: center;
     width: 300px;
     margin-top: -10px;
+    display: none;
 }
 
 #buttons{
     margin-top: 10px;
+    display: none;
+}
+
+#start{
+    width: 100px;
+    text-align: center;
 }

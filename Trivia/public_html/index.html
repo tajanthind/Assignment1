@@ -9,22 +9,22 @@
 
 <body>
     <div id="container">
+
         <p id="question">Question</p>
         <div id="ans">
             <input type="radio" id="ans1" name="answer" value="ans1">
-            <label for="ans1">ans1</label><br>
+            <label for="ans01" id="ans1">ans1</label><br>
             <input type="radio" id="ans2" name="answer" value="ans2">
-            <label for="ans2">ans2</label><br>
+            <label for="ans02" id="ans2">ans2</label><br>
             <input type="radio" id="ans3" name="answer" value="ans3">
-            <label for="ans3">ans3</label>
-            <!-- <input type="radio" id="ans4" name="answer" value="ans4">
-            <label for="ans4">ans4</label> -->
+            <label for="ans03" id="ans3">ans3</label>
         </div>
         <div id="buttons">
             <button type="button" id="submit" onclick="checkAnswer()">Submit answer</button>
-            <button type="button" id="next">Next question</button>
+            <button type="button" id="next" onclick="nextQuestion()">Next question</button>
         </div>
     </div>
+    <button type="button" id="start" onclick="startGame()">Start</button>
 </body>
 
 </html>
