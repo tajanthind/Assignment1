@@ -1,0 +1,18 @@
+#question{
+    padding: 20px;
+    border: 3px solid black;
+    text-align: center;
+    width: 200px;
+}
+
+#ans{
+    padding: 10px;
+    border: 3px solid black;
+    text-align: center;
+    width: 300px;
+    margin-top: -10px;
+}
+
+#buttons{
+    margin-top: 10px;
+}
