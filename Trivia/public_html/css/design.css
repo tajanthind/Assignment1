@@ -3,24 +3,50 @@
     border: 3px solid black;
     text-align: center;
     width: 200px;
-    display: none;
+    margin-left: 50px;
+    /* display: none; */
 }
 
 #ans{
-    padding: 10px;
+    padding: 20px;
     border: 3px solid black;
     text-align: center;
     width: 300px;
-    margin-top: -10px;
-    display: none;
+    margin-top: -12px;
+    /* display: none; */
 }
 
 #buttons{
     margin-top: 10px;
-    display: none;
 }
 
 #start{
     width: 100px;
     text-align: center;
+    background-color: rgb(165, 228, 207);
+}
+
+.check{
+    float: left;
+    height: 10px;
+    width: 25px;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+/* .checks{
+    display: none;
+} */
+
+#next, #submit{
+    background-color: rgb(165, 228, 207);
+}
+
+#container{
+    display: none;
+}
+
+#finish{
+    display: none;
+    background-color: rgb(165, 228, 207);
 }
